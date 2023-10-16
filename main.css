@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family: roboto, sans-serif;
+}
+
+header{
+    background-color: #aa1010;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+form{
+    background-color:aliceblue;
+    padding: 24px 0;
+    text-align: center;
+}
+
+form input{
+    width: 300px;
+    font-size: 24px;
+}
+
+form button{
+    font-size: 24px;
+}
+
+ul{
+    padding: 24px 0;
+    text-align: center;
+}
+
+ul li{
+    font-size: 18px;
+}
+
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+}
+
+input[type=checkbox] + label{
+    text-decoration: none;
+}
